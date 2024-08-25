@@ -1,0 +1,48 @@
+.SwitchContainer {
+    width: 150px;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.Switch {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+}
+
+.SwitchValue {
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    transition: transform 0.3s ease;
+}
+
+.on {
+    background-color: green;
+    transform: translateX(90px); /* Move to the right when on */
+}
+
+.off {
+    background-color: red;
+    transform: translateX(0); /* Stay on the left when off */
+}

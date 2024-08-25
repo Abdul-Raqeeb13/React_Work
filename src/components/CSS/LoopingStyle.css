@@ -1,0 +1,16 @@
+.loopingStyleContainer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .loopingStyle{
+    background-color: blue;
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 20%;
+    height: 200px;
+  
+  }
