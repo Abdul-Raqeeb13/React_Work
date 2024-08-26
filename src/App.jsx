@@ -10,11 +10,13 @@ import ConditionalStylingInReact from './components/ConditionalStyling_InReact'
 import EventHandling from './components/EventHandling'
 import PassEventHandlersAsProps from './components/PassEventHandlers_AsProps'
 import EventPropagation from './components/EventPropagation'
-import StateUse from './components/Hooks/Stateuse'
+import UseState from './components/Hooks/UseState'
 import DerivedState from './components/Hooks/DerivedState'
 import ListTheStateUp from './components/Hooks/ListTheStateUp'
-import ToggleSwitch from './components/MiniProjects/ToggleSwitch'
-import TodoApp from './components/MiniProjects/TodoApp'
+import ToggleSwitch from './components/MiniProjects/ToggleSwitch_useState'
+import TodoApp from './components/MiniProjects/TodoApp_useState'
+import AdvancedCounterUsing_UseState from './components/MiniProjects/AdvancedCounter_UseState'
+import AdvaFormSubmituseState from './components/MiniProjects/Adva_FormSubmit_useState'
 
 export default function App() {
 
@@ -31,11 +33,13 @@ export default function App() {
             <EventHandling/>
             <PassEventHandlersAsProps/>
             <EventPropagation/>
-            <StateUse/>
+            <UseState/>
             <DerivedState/>
             <ListTheStateUp/>
             <ToggleSwitch/>
-            <TodoApp/>x
+            <TodoApp/>
+            <AdvancedCounterUsing_UseState/>
+            <AdvaFormSubmituseState/>
             <Footer />
 
         </>
