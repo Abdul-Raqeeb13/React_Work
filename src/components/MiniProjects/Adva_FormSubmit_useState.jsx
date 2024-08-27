@@ -64,11 +64,11 @@ export default function AdvaFormSubmituseState() {
                         font-size: 16px;
                     }
 
-                    button {
+                    buttons {
                         display: block;
                         width: 100%;
                         padding: 10px;
-                        background-color: #28a745;
+                        background-color: blue;
                         color: white;
                         border: none;
                         border-radius: 4px;
@@ -77,9 +77,9 @@ export default function AdvaFormSubmituseState() {
                         transition: background-color 0.3s ease;
                     }
 
-                    button:hover {
-                        background-color: #218838;
-                    }
+                    // button:hover {
+                    //     background-color: #218838;
+                    // }
                 `}
             </style>
 
@@ -99,7 +99,7 @@ export default function AdvaFormSubmituseState() {
                     <label htmlFor="phoneNo">Phone No</label>
                     <input type="text" name="PhoneNo" value={UserData.PhoneNo} onChange={handleInputChange} />
 
-                    <button type="submit">Submit</button>
+                    <button className='buttons' type="submit">Submit</button>
                 </form>
             </div>
         </>

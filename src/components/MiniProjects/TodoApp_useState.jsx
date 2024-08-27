@@ -64,7 +64,7 @@ export default function TodoApp() {
                             value={inputValue}
                             onChange={(e) => setInputValue(e.target.value)}
                         />
-                        <button className="Btn" onClick={addTask}>Add Task</button>
+                        <button className="Btns" onClick={addTask}>Add Task</button>
                     </div>
                     <div className="todoAres">
                         {todo.map((item, index) => (

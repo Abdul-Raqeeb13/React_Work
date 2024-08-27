@@ -17,29 +17,52 @@ import ToggleSwitch from './components/MiniProjects/ToggleSwitch_useState'
 import TodoApp from './components/MiniProjects/TodoApp_useState'
 import AdvancedCounterUsing_UseState from './components/MiniProjects/AdvancedCounter_UseState'
 import AdvaFormSubmituseState from './components/MiniProjects/Adva_FormSubmit_useState'
-
+import UseEffect from './components/Hooks/UseEffect'
+import FetchAPIUsingUseEffect from '../src/components/Hooks/FetchAPI_UsingUseEffect'
+import UseRef from '../src/components/Hooks/UseRef'
+import UseId from '../src/components/Hooks/UseId'
+import PropsDribbling from './components/PropsDribbling _WithSolution/PropsDribbling'
+import {BioContextProvider} from './components/PropsDribbling _WithSolution/UseContext_Hook_SolutonPropsDribbling/BioContext'
+import BioDetails from './components/PropsDribbling _WithSolution/UseContext_Hook_SolutonPropsDribbling/GetBioDetails'
+import UpdateBio from './components/PropsDribbling _WithSolution/UseContext_Hook_SolutonPropsDribbling/UpdateBio'
 export default function App() {
 
     return (
         <>
+
+
             <Headers />
             <Data />
             <Body />
-            <ConditionalRendering/>
+            <ConditionalRendering />
             <Looping />
             <PropsSend />
-            <Profile/>
-            <ConditionalStylingInReact/>
-            <EventHandling/>
-            <PassEventHandlersAsProps/>
-            <EventPropagation/>
-            <UseState/>
-            <DerivedState/>
-            <ListTheStateUp/>
-            <ToggleSwitch/>
-            <TodoApp/>
-            <AdvancedCounterUsing_UseState/>
-            <AdvaFormSubmituseState/>
+            <Profile />
+            <ConditionalStylingInReact /> 
+            <EventHandling />
+            <PassEventHandlersAsProps />
+            <EventPropagation />
+            <UseState />
+            <DerivedState />
+            <ListTheStateUp />
+            <ToggleSwitch />
+            <TodoApp />
+            <AdvancedCounterUsing_UseState />
+            <AdvaFormSubmituseState />
+            <UseEffect />
+            <FetchAPIUsingUseEffect />
+            <UseRef />
+            <UseId />
+            <PropsDribbling />
+
+            <BioContextProvider>
+                <div>
+                    <h1>Solution of the Props Dribbling</h1>
+                    <h1>Welcome to the BioContext App</h1>
+                    <BioDetails />
+                    <UpdateBio />
+                </div>
+            </BioContextProvider>
             <Footer />
 
         </>

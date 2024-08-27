@@ -1,6 +1,5 @@
 .body {
     background-color: black;
-    /* width: 100%; */
     height: 100%;
     display: flex;
     justify-content: center;
@@ -27,7 +26,7 @@
     text-align: center;
 }
 
-.input{
+.inputs{
     height: 35px;
     width: 50%;
     border-top-left-radius: 10px;
@@ -38,7 +37,7 @@
     
 }
 
-.Btn{
+.Btns{
     height: 37px;
     width: 20%;
     border-top-right-radius: 10px;
@@ -65,7 +64,7 @@
 .deleteicon{ 
   position: absolute;
   right: 20px;
-  font-size: 24px; /* Adjust the size to your preference */
-  color: red; /* Optional: Change the color of the icon */
-  cursor: pointer; /* Optional: Change the cursor to a pointer */
+  font-size: 24px;
+  color: red; 
+  cursor: pointer; 
 }
